@@ -7,20 +7,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <img src="image/suprabhathamlogo.svg" alt="Logo" class="logo">
-        <h1>Frame Creator</h1>
-      </nav>
-    <div>
-     <h1>Add Frame</h1>
-     <p>The perfect Frame for your Profile photo</p>
+  <nav>
+    <img src="image/suprabhathamlogo.svg" alt="Logo" class="logo">
+   
+  </nav>
+  <div class="container">
+    <div class="card">
+      <h2>Create a Frame</h2>
+      <p>The perfect frame for your profile photo</p>
+      <input type="file" id="baseImageInput" class="file-input">
+      <label for="baseImageInput" class="file-label">Choose or Drag an Image</label>
+      <button id="mergeButton" style="display: none;">Merge and Download</button>
     </div>
-    <div class="container">
-        <div class="card">
-  <input type="file" id="baseImageInput">
-  <button id="mergeButton" style="display: none;">Merge and Download</button>
-        </div>
-    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
