@@ -31,8 +31,9 @@ nav {
   margin-right: 10px;
 }
 .card {
-  background-color: #999999;
-  background-image:radial-gradient(rgb(190, 190, 190) 5%, rgba(0, 0, 0, 0.5) 100%);
+  background: #f4f4f4;
+  background: -webkit-radial-gradient(circle, #f4f4f4 0%, #9c9b9b 100%);
+  background: radial-gradient(circle, #f4f4f4 0%, #9c9b9b 100%);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   padding: 2rem;
