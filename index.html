@@ -14,10 +14,12 @@
     <div class="card">
       <h2>Create a Frame</h2>
       <p>The perfect frame for your profile photo</p>
-      <img src="image/thumbnail.png" alt="Upload Thumbnail.png" class="thumbnail">
+      <img id="thumbnailImage" src="image/thumbnail.png" alt="Upload Thumbnail.png" class="thumbnail">
+      <img id="previewImage" alt="Merged Image" style="display:none;">
       <input type="file" id="baseImageInput" class="file-input">
       <label for="baseImageInput" class="file-label">Choose an Image</label>
-      <button id="mergeButton" style="display: none;">Merge and Download</button>
+      <button id="mergeButton" style="display: none;">Merge</button>
+      <button id="downloadButton" style="display: none;">Download</button>
     </div>
   </div>
 
